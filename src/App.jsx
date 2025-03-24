@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button"
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import Home from './components/Home.jsx'
 
-function App() {
+const App = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-svh">
-      <Button>Click me</Button>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
   )
 }
 
