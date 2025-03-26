@@ -114,7 +114,7 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Prakash Naik",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=prakash",
+      avatar: "https://i.pinimg.com/736x/4c/eb/19/4ceb19573095c959057ddb0984aa8073.jpg",
       rating: 5,
       review: "ଏହି ଆପ୍ ଟା ବହୁତ ଭଲ! ଫ୍ରେଣ୍ଡସ୍ ସହିତ ଚାଟ୍ କରିବାକୁ ମଜା ଆସେ। 😍",
     },
@@ -130,7 +130,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Debasis Das",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=debasis",
+      avatar: "https://i.pinimg.com/736x/16/f6/9e/16f69e7b46129dccb174cb31fa5d6bb9.jpg",
       rating: 5,
       review:
         "Saala mast! Voice note au photo share karibara option bhala lagila. Dosti re time pass karibaku perfect!",
@@ -138,7 +138,7 @@ const Testimonials = () => {
     {
       id: 4,
       name: "Anjali Mohanty",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=anjali",
+      avatar: "https://i.pinimg.com/736x/14/5c/10/145c10928e5a7e23c0c2c266641209f5.jpg",
       rating: 3,
       review:
         "Bhalo, kintu WhatsApp re jete feature achhi, ete nai. Dark mode bhala, raati use kariba pain comfortable.",
@@ -147,15 +147,15 @@ const Testimonials = () => {
       id: 5,
       name: "Sonu Pradhan",
       avatar:
-        "https://instagram.fbbi5-3.fna.fbcdn.net/v/t51.2885-19/472344839_1245163476595534_5766027337548577922_n.jpg?_nc_ht=instagram.fbbi5-3.fna.fbcdn.net&_nc_cat=110&_nc_oc=Q6cZ2QEd1LU3TmXCkzLBSidRlvJ93p6jBy0kAHlIwnFzYUXAbssSKvcyV_-gXEpszrH17Lo&_nc_ohc=sFicAnrlzNQQ7kNvgGm85V-&_nc_gid=amD00vGzcCne6fUis2pbNw&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AYFit6F4Neb_7elnldLn3S-aeHO17a6nzDY1om-et-dhtw&oe=67E8222D&_nc_sid=7a9f4b",
+        "https://res.cloudinary.com/drx0wspfj/image/upload/v1742900452/ds_iqi7pj.jpg",
       rating: 5,
       review:
         "Yaar, mast app hai! Group chats aur emojis ka option bohot badhiya hai. Thoda aur sticker options ho toh aur maza aa jaye!",
     },
     {
       id: 6,
-      name: "Ishita Reddy",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=ishita",
+      name: "Ishita Sethi",
+      avatar: "https://i.pinimg.com/736x/f6/f3/28/f6f32849db35ae22eb224f47ce8e4e34.jpg",
       rating: 4,
       review:
         "Bahut smooth chalta hai, par kabhi-kabhi notifications late aate hain. Overall, accha hai, friends ke saath bakchodi ka best app!",
@@ -163,7 +163,7 @@ const Testimonials = () => {
     {
       id: 7,
       name: "Dinesh Rajgandha",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=rohit",
+      avatar: "https://media.licdn.com/dms/image/v2/D5635AQFKhmRXs21Cjw/profile-framedphoto-shrink_200_200/B56ZVq.IfZGQAc-/0/1741256427834?e=1743523200&v=beta&t=6yP0EA3OwKG-Zc6V-XA-NY7O8XDtxP7oSGwNNSLtJQ0",
       rating: 5,
       review:
         "Kya baat hai! Voice notes aur GIFs ka feature ekdum zabardast. Ab toh poora family bhi isi pe active hai. 😆",
@@ -171,7 +171,7 @@ const Testimonials = () => {
     {
       id: 8,
       name: "Sapna Mahto",
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=karan",
+      avatar: "https://i.pinimg.com/736x/70/17/7f/70177fabc0cf8b157672adb8cb998d8c.jpg",
       rating: 5,
       review:
         "Bhai, best app for casual chat! No ads, no spam, bas thoda aur customization dedo profile ka, perfect ho jayega!",

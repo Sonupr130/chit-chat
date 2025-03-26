@@ -115,7 +115,6 @@
 import React, { useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Mail, Phone } from "lucide-react";
 import hero from "../assets/hero_1.png";
 import hero2 from "../assets/hero_2.png";
 import Footer from "@/components/Footer";
@@ -129,28 +128,26 @@ import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
 
-  const { loginWithRedirect , user ,isAuthenticated } = useAuth0();
+  const { loginWithRedirect, user, isAuthenticated, isLoading } = useAuth0();
   console.log(user);
-
   const navigate = useNavigate();
-  useEffect(() => {
-    if (isAuthenticated) {
-      navigate('/profile-setup'); // or '/dashboard' depending on your flow
-    }
-  }, [isAuthenticated, navigate]);
 
+  useEffect(() => {
+    if (isAuthenticated && !isLoading) {
+      navigate("/profile-setup");
+    }
+  }, [isAuthenticated, isLoading, navigate]);
 
   const handleGoogleLogin = async () => {
     try {
+      console.log("Initiating Google login...");
       await loginWithRedirect({
-        authorizationParams: {
-          connection: "google",
-          screen_hint: "signup", // Optional: shows signup instead of login
-          redirect_uri: `${window.location.origin}/profile-setup`,
-        },
+        appState: { returnTo: "/profile-setup" },
       });
+      console.log("Login redirect initiated");
     } catch (error) {
-      console.error("Login failed:", error);
+      console.error("Login error:", error);
+      console.log("Login error:", error);
     }
   };
 
@@ -182,10 +179,11 @@ const LandingPage = () => {
                 variant="outline"
                 className="w-full flex items-center gap-2"
                 onClick={handleGoogleLogin}
+                // onClick={() => loginWithRedirect()}
               >
                 <FcGoogle size={18} /> Continue with Google
               </Button>
-              <Button
+              <Button onClick={() => navigate('/phone-auth')}
                 variant="outline"
                 className="w-full flex items-center gap-2"
               >
